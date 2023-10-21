@@ -1,5 +1,6 @@
 <script>
 	import LogoGithub from "~icons/carbon/logo-github";
+	import LogoSvelte from "~icons/carbon/logo-svelte";
 	import Launch from "~icons/carbon/launch";
 	import Cafe from "~icons/carbon/cafe";
 </script>
@@ -8,7 +9,7 @@
 	<a href="https://ko-fi.com/medenos" target="_blank"><Cafe /> Ko-Fi<span class="launch-icon"><Launch /></span></a>
 	<a href="https://github.com/Medenos/open-initiative-tracker" title="link to github repository" target="_blank"><LogoGithub /> Github<span class="launch-icon"><Launch /></span></a>
 	<a href="https://www.gnu.org/licenses/gpl-3.0.en.html" title="link to codebase license" target="_blank">License<span class="launch-icon"><Launch /> </span></a>
-	<p>This app was made with <a href="https://kit.svelte.dev" title="link to sveltekit" target="_blank">SvelteKit<span class="launch-icon"><Launch /> </span></a></p>
+	<p>This app was made with <a href="https://kit.svelte.dev" title="link to sveltekit" target="_blank"><LogoSvelte />SvelteKit<span class="launch-icon"><Launch /> </span></a></p>
 </footer>
 
 <style>
@@ -18,13 +19,17 @@
 		border-radius: 5px;
 		text-align: right;
 		color: var(--secondary-fg-color);
+		margin: 0px 8px;
 	}
 
 	a {
-		font-family: "0xProto";
 		margin: 0px 5px;
 		text-decoration: none;
-		font-size: 14px;
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 12px;
 	}
 
 	.launch-icon {
@@ -38,11 +43,7 @@
 		}
 
 		a {
-			font-size: 16px;
-		}
-
-		p {
-			font-size: 14px;
+			font-size: 24px;
 		}
 	}
 </style>
