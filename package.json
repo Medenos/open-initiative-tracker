@@ -9,6 +9,7 @@
 	},
 	"devDependencies": {
 		"@iconify-json/carbon": "^1.1.21",
+		"@iconify-json/cib": "^1.1.5",
 		"@iconify-json/iconoir": "^1.1.32",
 		"@iconify-json/logos": "^1.1.37",
 		"@sveltejs/adapter-auto": "^2.0.0",

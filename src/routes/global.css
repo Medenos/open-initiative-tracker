@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--primary-bg-color: #1b1b1b;
-		--secondary-bg-color: #3d3d3d;
+		--secondary-bg-color: #544b56;
 		--tertiary-bg-color: #3a2945;
 
 		--primary-fg-color: #ffffff;
@@ -12,20 +12,20 @@
 
 @media (prefers-color-scheme: light) {
 	:root {
-		--primary-bg-color: #f0ead6;
-		--secondary-bg-color: #b5b0a1;
-		--tertiary-bg-color: #d08cfa;
+		--primary-bg-color: #ffffff;
+		--secondary-bg-color: #c3e0f8;
+		--tertiary-bg-color: #65a8ff;
 
 		--primary-fg-color: #1b1b1b;
 		--secondary-fg-color: #666464;
-		--tertiary-fg-color: #77518f;
+		--tertiary-fg-color: #241ab3;
 	}
 }
 
-/* @font-face {
+@font-face {
 	font-family: "0xProto";
 	src: url("/fonts/0xProto/0xProto-Regular.otf");
-} */
+}
 
 @font-face {
 	font-family: "AROneSansRetina";
