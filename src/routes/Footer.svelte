@@ -1,10 +1,12 @@
 <script>
 	import LogoGithub from "~icons/carbon/logo-github";
 	import Launch from "~icons/carbon/launch";
+	import Cafe from "~icons/carbon/cafe";
 </script>
 
 <footer>
-	<a href="https://github.com/Medenos/open-initiative-tracker" title="link to github repository" target="_blank"> <LogoGithub /> Github<span class="launch-icon"><Launch /></span></a>
+	<a href="https://ko-fi.com/medenos" target="_blank"><Cafe /> Ko-Fi<span class="launch-icon"><Launch /></span></a>
+	<a href="https://github.com/Medenos/open-initiative-tracker" title="link to github repository" target="_blank"><LogoGithub /> Github<span class="launch-icon"><Launch /></span></a>
 	<a href="https://www.gnu.org/licenses/gpl-3.0.en.html" title="link to codebase license" target="_blank">License<span class="launch-icon"><Launch /> </span></a>
 	<p>This app was made with <a href="https://kit.svelte.dev" title="link to sveltekit" target="_blank">SvelteKit<span class="launch-icon"><Launch /> </span></a></p>
 </footer>

@@ -9,7 +9,6 @@
 			<li><a href="/" aria-current={$page.url.pathname === "/"}>Home</a></li>
 			<li><a href="/encounters" aria-current={$page.url.pathname === "/encounters"}>Encounters</a></li>
 			<li><a href="/settings" aria-current={$page.url.pathname === "/settings"}>Settings</a></li>
-			<li><a href="/about" aria-current={$page.url.pathname === "/about"}>About</a></li>
 		</ul>
 	</nav>
 </header>
