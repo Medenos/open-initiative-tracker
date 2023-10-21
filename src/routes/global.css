@@ -1,0 +1,26 @@
+@media (prefers-color-scheme: dark) {
+	:root {
+		--main-bg-color: #1b1b1b;
+		--secondary-bg-color: #3d3d3d;
+		--main-fg-color: #ffffff;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--main-bg-color: #ffffff;
+		--secondary-bg-color: #cfcfcf;
+		--main-fg-color: #1b1b1b;
+	}
+}
+
+@font-face {
+	font-family: "0xProto";
+	src: url("/fonts/0xProto/0xProto-Regular.otf");
+}
+
+html {
+	font-family: "0xProto";
+	background: var(--main-bg-color);
+	color: var(--main-fg-color);
+}
