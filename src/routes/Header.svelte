@@ -1,6 +1,6 @@
 <script>
 	import { page } from "$app/stores";
-	import { fade, slide } from "svelte/transition";
+	import { fade, fly, slide } from "svelte/transition";
 	import D20Icon from "~icons/iconoir/hexagon-dice";
 	import Chevron from "~icons/carbon/chevron-up";
 
@@ -9,11 +9,11 @@
 
 <div>
 	{#if showHeader}
-		<header transition:slide>
-			<h2><a href="/"><D20Icon />Open Initiative Tracker</a></h2>
-			<hr />
+		<header transition:slide={{ duration: 500 }}>
+			<h1 out:fade in:fly={{ x: -200, duration: 500 }}><a href="/"><D20Icon />Open Initiative Tracker</a></h1>
+			<hr transition:fade={{ duration: 250 }} />
 			<nav>
-				<ul>
+				<ul out:fade in:fly={{ x: 200, duration: 500 }}>
 					<li><a href="/" aria-current={$page.url.pathname === "/"}>Home</a></li>
 					<li><a href="/encounters" aria-current={$page.url.pathname === "/encounters"}>Encounters</a></li>
 					<li><a href="/settings" aria-current={$page.url.pathname === "/settings"}>Settings</a></li>
@@ -42,7 +42,7 @@
 		background: linear-gradient(to bottom right, var(--primary-bg-color), var(--tertiary-bg-color));
 	}
 
-	h2 {
+	h1 {
 		margin: 0px;
 	}
 
