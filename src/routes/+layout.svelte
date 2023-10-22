@@ -9,7 +9,7 @@
 
 	let animating = false;
 
-	$: document.body.style.overflowX = animating ? "hidden" : null;
+	$: document.documentElement.style.overflow = animating ? "hidden" : null;
 
 	const hideTemporarly = (event, durationMilliseconds) => {
 		event.target.style.position = "absolute";
