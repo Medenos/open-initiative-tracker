@@ -2,7 +2,7 @@
 	import isLocalStorageActivated from "$lib/localStorageChecker.js";
 	import Save from "~icons/carbon/save";
 	import Unsaved from "~icons/carbon/unsaved";
-	import Cafe from "~icons/carbon/cafe";
+	import Cafe from "~icons/cib/ko-fi";
 	let storageActive = isLocalStorageActivated();
 </script>
 
