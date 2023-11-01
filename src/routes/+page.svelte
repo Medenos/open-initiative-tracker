@@ -1,5 +1,5 @@
 <script>
-	import isLocalStorageActivated from "$lib/localStorageChecker.js";
+	import isLocalStorageActivated from "$lib/utils/localStorageChecker.js";
 	import Save from "~icons/carbon/save";
 	import Unsaved from "~icons/carbon/unsaved";
 	import Cafe from "~icons/cib/ko-fi";
